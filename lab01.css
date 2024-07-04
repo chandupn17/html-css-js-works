@@ -1,0 +1,170 @@
+/* #box{
+background: yellow;
+width: 100px;
+height: 300px;
+}
+#inner{
+    background-color: aqua;
+    width: 60%;
+    height: 56%;
+}
+#main{
+    
+     margin-left: 220px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.botton{
+    color: yellow;
+}
+#mm{
+    background-color: rgb(19, 19, 216);
+}
+#cir01{
+    border-radius: 50%;
+    background-color: red;
+    height: 30%;
+}
+#cir02{
+    background-color: yellow;
+    border-radius: 50%;
+    height: 30%;
+}
+#cir03{
+    background-color: green;
+    border-radius: 50%;
+    height: 30%;
+}
+#cir{
+    
+    background-color: black;
+    height: 500px;
+    width: 250px;
+} */
+/* #navbar{
+    height: 100px;
+    background-color: black;
+    
+    color: aqua;
+}
+a{
+    margin-right: 250px;
+    color: aqua;
+
+
+}
+#logo{
+    color: yellow;
+}
+button{
+    background-color: yellow;
+}
+#card{
+    background-color: blue;
+    height: 1000px;
+    margin-right: 50px;
+    
+}
+#oo{
+    height: 200px;
+    width: 200px;
+    margin-right: 100px;
+    inline-size: 30%;
+    padding-left: 30px;
+}
+div{
+    margin-right: 50px;
+}
+
+   
+#oo{
+    margin-right: 100;
+} */
+/* #toolbar {
+    div{
+        margin-right: 10px;
+    }
+    a{
+        margin-right: 240Spx;
+    }
+}
+#space{
+    height:40px;
+} */
+/*-------------------------------------------------------------*/
+
+#navbar{
+    height: 35px;
+    background-color: rgb(9, 9, 118);
+    a{
+        color: rgb(13, 234, 35);
+        margin-right: 270px;
+        text-decoration-style:none;
+        text-decoration-style: none;
+     }
+    button{
+        border-radius: 6px;
+        background-color: rgb(232, 214, 7);
+    }
+}
+
+#im{
+    height: 200px;
+    background-color: rgb(189, 142, 80);
+    
+    img{
+        padding-top: 20px;
+        padding-left: 45px;
+        height: 150px;
+        width: 100px;
+        margin-right: 250px;
+        
+    }
+   
+}
+
+#toolbar{
+    background-color: black;
+    height: 50px;
+    a{
+        color: aqua;
+    }
+    img{
+        height: 30px;
+    }
+}
+footer{
+    text-align: center;
+    background-color: skyblue;
+    height: 300px;
+    text-decoration-color: rgb(230, 17, 17);
+    h3{
+        color: rgb(39, 10, 232);
+    }
+}
+#di{
+    height: 50px;
+    width: 50px;
+}
+#d{
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+ 
+    text-align: center;
+    align-items: center;
+}
+#d1{
+    height: 20%;
+    width: 50%;
+    margin-left: 20%;
+    background-color: black;
+}
+#boxes{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    display: inline;
+    border: 1px;
+    border-color: black;
+}
