@@ -1,0 +1,44 @@
+.out{
+    background-color: aqua;
+height: 200px;
+width: 200px;
+color: rgb(245, 246, 247);
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.inner{
+    background-color: black;
+    height: 20%;
+    width: 20%;
+    color: aliceblue;
+    text-align: center;
+    /* align-items: center; */
+    transition-duration: 0.5s;
+    /* transition-delay: 2s; */
+}
+.inner:hover{
+    /* height: 50px;
+    width: 50px; */
+    transition-duration: 0.5s;
+    background-color: blue;
+    font-size: 40px;
+    /* transform: rotate(45deg);   */
+    transform: scale(2,2);
+    /* transform: rotate(45deg);  */
+}
+.divv{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+
+}
+.divv:hover{
+background-color: blue;
+transform: rotate(45deg);
+}
+/* .divv:active{
+    background-color: saddlebrown;
+} */

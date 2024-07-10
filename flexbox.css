@@ -1,0 +1,44 @@
+.flex{
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+#nav{
+    margin-right: 250px; margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+}
+h2{
+    margin-left: 60px;
+    margin-right: 50px;
+    
+}
+}
+#fle{
+    height: 180px;
+    align-content: center;
+    background-color: rgb(195, 248, 230);
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 40px;
+}
+body{
+    margin: 0;
+    background-image: url("amlo.png");
+    background-size: cover;
+    
+}
+header{
+    background-color: blue;
+    font: black;
+    position: fixed;
+    width: 100%;
+    border:10%;
+    border-color: beige;
+}
+#sad{
+padding-top: 65px;
+text-align: center;
+}
