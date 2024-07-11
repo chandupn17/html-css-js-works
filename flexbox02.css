@@ -37,8 +37,36 @@ align-items: center;
 }
 .divv:hover{
 background-color: blue;
+/* transform: rotate(45deg); */
+transition: all 2s ease-in;
+transform: translate(100px);
 transform: rotate(45deg);
 }
 /* .divv:active{
     background-color: saddlebrown;
 } */
+ 
+    
+ 
+ #cha{
+    height: 50px;
+    width: 50px;
+    background-color: azure;
+     /* animation-name: chandu;
+     animation-duration: 2s;
+     animation-timing-function: ease-in;
+     animation-iteration-count: infinite;
+     animation-direction: reverce;
+     animation-iteration-count: infinite; */
+     animation: chandu 2s ease-in infinity reverse;
+ }
+ @keyframes chandu {
+    from{
+        background-color: aqua;
+        left: 10px;
+    }
+    to{
+        background-color: blue;
+        left: 69px;
+    }
+}
