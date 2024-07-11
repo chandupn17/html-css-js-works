@@ -1,0 +1,25 @@
+.lod{
+    height: 200px;
+    width: 200px;
+    /* wrong method of using border
+    border-color: aqua; */
+    border: 20px solid aqua;
+    border-top: 20px solid rgb(64, 14, 216) ;
+    border-radius: 50%;
+    animation: loding .8s ease-in-out infinite;
+    
+}
+@keyframes loding{
+    0%{
+        rotate: 0deg;
+    }
+    50%{
+        height: 150px;
+        width: 150px;
+        border: 10px solid aqua;
+        border-top: 10px solid rgb(64, 14, 216);
+    }
+    100% {
+        rotate: 360deg;
+    }
+}
