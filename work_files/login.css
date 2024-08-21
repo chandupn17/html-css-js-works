@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    border: none;
+    border: border-box;
+}
+.out{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer{
+    height: 300px;
+    width: 300px;
+    border: border-box;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 9px; */
+    /* border: 9px solid aqua; */
+    border-radius: 9px;
+    /* border: 2px solid aqua; */
+    animation: chandu 2s ease-in-out infinity;
+}
+.inner{
+    height: 99%;
+    width: 99%;
+    background-color: beige;
+    border-radius: 9px
+}
+
+.outer:hover{
+    /* background-color: aqua; */
+    border: 2px solid white;
+    border-top: 2px solid aqua;
+ animation: chandu 2s ease-in-out infinity;
+}
+@keyframe chandu {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+    
+}
