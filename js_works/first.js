@@ -1,7 +1,7 @@
 //-------------------------------------------------------------------------
 // let marks = alert("good morning please ensure to subscribe ");
 // let student = {
-//     name: "chandu ",
+//    name: "chandu ",
 //     age : 22,
 //     role : "ceo",
 //     company_name : "1week.org",
@@ -19,9 +19,29 @@
 //     valu = prompt("no, please enter the correct number");
 // }
 // console.log(" congragulation , your guess is correct ");
-let comp1="@";
-let comp2 = prompt("Enter your full name");
-// console.log(comp2.length);
-let comp3= comp2.length;
-let username = comp1+comp2+comp3;
-console.log(" Your user name will be ---",username);
+// let comp1="@";
+// let comp2 = prompt("Enter your full name");
+// // console.log(comp2.length);
+// let comp3= comp2.length;
+// let username = comp1+comp2+comp3;
+// console.log(" Your user name will be ---",username);
+
+//-----------------array operation-------------
+// let arr  = ["mabh","wbwb","webdevelopment","wg","qegwr"];
+// let arr2=["chandu ","punith","chandru"];
+// // arr=arr+arr2;
+// let arr1= arr.concat(arr2);
+// arr1.unshift("cmamamam");
+// arr1.slice(1,4);
+// console.log(arr1);
+// console.log(arr1.slice(0,4));
+
+//-------parctice question-------
+let arra =["bloomberg","microsoft","uber","google","ibm","neflix"];
+console.log(arra);
+// arra.shift();
+// console.log(arra);
+arra.splice(2,1,"ola");
+console.log(arra);
+arra.push("Amazon");
+console.log(arra);
