@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+ body{
+    
+}
+.main{
+    background-image: url("bach.jpg");
+    height: 800px;
+    width: 100%;
+   background-color: aqua;
+
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div01 {
+    height: 450px;
+    width: 300px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: rgb(141, 132, 236);
+}
+.input{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+input{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    margin-top: 10px;
+    p{
+        margin-top: 10px;
+    }
+    
+}
