@@ -37,11 +37,32 @@
 // console.log(arr1.slice(0,4));
 
 //-------parctice question-------
-let arra =["bloomberg","microsoft","uber","google","ibm","neflix"];
-console.log(arra);
-// arra.shift();
+// let arra =["bloomberg","microsoft","uber","google","ibm","neflix"];
 // console.log(arra);
-arra.splice(2,1,"ola");
-console.log(arra);
-arra.push("Amazon");
-console.log(arra);
+// // arra.shift();
+// // console.log(arra);
+// arra.splice(2,1,"ola");
+// console.log(arra);
+// arra.push("Amazon");
+// console.log(arra);
+
+
+function ver(mesg){
+    let count =0;
+    for (const i of mesg){
+        if( i === "a" ||
+            i === "e" ||
+            i === "i" || 
+            i ==="o" ||
+            i ==="u"){
+            console.log(i,"\n");
+            count++;
+
+        }
+
+    }
+    return count;
+}
+let count = ver("chandu");
+
+console.log("the number of owels in chandu world will be ",count);
