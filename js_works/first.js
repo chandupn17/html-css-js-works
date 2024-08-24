@@ -44,25 +44,25 @@
 // arra.splice(2,1,"ola");
 // console.log(arra);
 // arra.push("Amazon");
-// console.log(arra);
+// console.log(arra);git 
 
 
-function ver(mesg){
-    let count =0;
-    for (const i of mesg){
-        if( i === "a" ||
-            i === "e" ||
-            i === "i" || 
-            i ==="o" ||
-            i ==="u"){
-            console.log(i,"\n");
-            count++;
+// function ver(mesg){
+//     let count =0;
+//     for (const i of mesg){
+//         if( i === "a" ||
+//             i === "e" ||
+//             i === "i" || 
+//             i ==="o" ||
+//             i ==="u"){
+//             console.log(i,"\n");
+//             count++;
 
-        }
+//         }
 
-    }
-    return count;
-}
-let count = ver("chandu");
+//     }
+//     return count;
+// }
+// let count = ver("chandu");
 
-console.log("the number of owels in chandu world will be ",count);
+// console.log("the number of owels in chandu world will be ",count);
