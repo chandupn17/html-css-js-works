@@ -66,3 +66,68 @@
 // let count = ver("chandu");
 
 // console.log("the number of owels in chandu world will be ",count);
+// function one (mes){
+//     mes=mes*10;
+
+// }
+
+
+
+// ------ important for each function --------
+// inn js function can passed as paramertr to another function 
+
+
+///----------------------------------------
+// let arr=[12,34,45,3];
+// arr.forEach( function one(valu){
+//     valu=valu*10;
+//     // arr[valu]= arr[valu]*10;
+//     console.log(valu);
+//     console.log(arr);
+
+
+// });
+// console.log(arr);
+// let divchange = document.querySelector("div");
+let myfun =(a,b) =>{
+    return a+b;}
+
+console.log(myfun(10,20));
+
+
+   
+const obj ={
+    m1:80,
+    m2:69,
+    m3:33,
+};
+let arr=[10,12,34,45,67];
+arr.forEach((x,indx) =>{
+    x=x+100;
+    console.log(x,indx);
+});
+console.log(arr);
+let mapps =arr.map(  (val) =>{ 
+
+    return val*100;
+
+});
+console.log("the manuplated arry of arr :",mapps);
+console.log("----------------------------------------------------");
+const big = arr.reduce((largest,current) =>{
+     return largest <  current;
+
+});
+const big1 = arr.reduce((largest,current) =>{
+    return largest>current ?largest:current;
+
+});
+
+
+//=-=-------------------documents -------
+console.log(big);
+console.log(big1);
+let something = document.querySelector("#byid");
+console.log(something);
+let get = something.getAttribute("#byid");
+console.log(get);
