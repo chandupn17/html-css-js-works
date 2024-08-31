@@ -89,45 +89,91 @@
 // });
 // console.log(arr);
 // let divchange = document.querySelector("div");
-let myfun =(a,b) =>{
-    return a+b;}
+// let myfun =(a,b) =>{
+//     return a+b;}
 
-console.log(myfun(10,20));
+// console.log(myfun(10,20));
 
 
    
-const obj ={
-    m1:80,
-    m2:69,
-    m3:33,
-};
-let arr=[10,12,34,45,67];
-arr.forEach((x,indx) =>{
-    x=x+100;
-    console.log(x,indx);
-});
-console.log(arr);
-let mapps =arr.map(  (val) =>{ 
+// const obj ={
+//     m1:80,
+//     m2:69,
+//     m3:33,
+// };
+// let arr=[10,12,34,45,67];
+// arr.forEach((x,indx) =>{
+//     x=x+100;
+//     console.log(x,indx);
+// });
+// console.log(arr);
+// let mapps =arr.map(  (val) =>{ 
 
-    return val*100;
+//     return val*100;
 
-});
-console.log("the manuplated arry of arr :",mapps);
-console.log("----------------------------------------------------");
-const big = arr.reduce((largest,current) =>{
-     return largest <  current;
+// });
+// console.log("the manuplated arry of arr :",mapps);
+// console.log("----------------------------------------------------");
+// const big = arr.reduce((largest,current) =>{
+//      return largest <  current;
 
-});
-const big1 = arr.reduce((largest,current) =>{
-    return largest>current ?largest:current;
+// });
+// const big1 = arr.reduce((largest,current) =>{
+//     return largest>current ?largest:current;
 
-});
+// });
 
 
-//=-=-------------------documents -------
-console.log(big);
-console.log(big1);
-let something = document.querySelector("#byid");
-console.log(something);
-let get = something.getAttribute("#byid");
-console.log(get);
+// //=-=-------------------documents -------
+// console.log(big);
+// console.log(big1);
+// let something = document.querySelector("#byid");
+// console.log(something);
+// let get = something.getAttribute("#byid");
+// console.log(get);
+//----------------get attribute --------
+
+// let div = document.querySelector("#byid");
+// console.log(div.getAttribute("class"));
+
+//---------events------------;
+// let even = document.querySelector("#btn");
+// even.onclick = (e)=>
+// {
+//     console.log("theank you for clicking");
+
+// }
+// even.ondbclick = (e)=>{
+//     console.log(" double click");
+// }
+//--------------------
+// const node = document.getElementById('btn');
+
+// // Add double-click event listener
+// node.addEventListener('dblclick', function() {
+//     alert('Node double-clicked!');
+// });
+
+//-------  mode-changer -------
+// let currmode = "light";
+// let body= document.querySelector("body");
+// let btn = document.querySelector(".mode");
+
+// btn.addEventListener("click",()=>{
+//     if(currmode==="light"){
+//         body.classList.remove("light");
+//         // body.style.backgroundColor= "black";
+//    body.classList.add("dark");
+//         currmode="dark";
+
+//     }else{
+//         body.classList.remove("dark");
+//         body.classList.add("light");
+//         currmode="light";
+
+//     }
+//     console.log(currmode);
+// });
+
+    
+

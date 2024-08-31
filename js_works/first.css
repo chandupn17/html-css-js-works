@@ -1,4 +1,8 @@
-#byid {
-    background-color: aqua;
-
+.dark{
+    background-color: black;
+    color: rgb(72, 239, 161);
+}
+.light{
+    background-color: white;
+    color: black;
 }
