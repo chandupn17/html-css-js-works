@@ -177,3 +177,16 @@
 
     
 
+//---- Practice------
+let box=[1,2,3,4,5,6,7];
+let arr=[[1,2,3],[4,5,6],[7,8,9]];
+let fun=()=>{
+    for(let j of box)
+        {
+            if(j===5){
+                return;
+            }console.log(j);
+        }  
+}
+fun();
+
