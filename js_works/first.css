@@ -1,4 +1,7 @@
-.dark{
+*{
+margin: 0;
+}
+/* .dark{
     background-color: black;
     color: rgb(72, 239, 161);
 }
@@ -6,3 +9,32 @@
     background-color: white;
     color: black;
 }
+img{
+    height: 120vmax;
+    width: 100vmax;
+} */
+ button{
+    width: 100px;
+    height: 60px;
+    font-size: large;
+background-color: white;
+color: rgb(9, 243, 165);
+    border-radius: 5px;
+    border: 2px solid transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+ }
+ h3{
+    font-size: 90px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .btn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    background-color: aquamarine;
+    align-items: center;
+    height: 100vmin;
+ }

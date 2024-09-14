@@ -177,16 +177,54 @@
 
     
 
-//---- Practice------
-let box=[1,2,3,4,5,6,7];
-let arr=[[1,2,3],[4,5,6],[7,8,9]];
-let fun=()=>{
-    for(let j of box)
-        {
-            if(j===5){
-                return;
-            }console.log(j);
-        }  
-}
-fun();
+//---- Practice mode changer------
+// 
+// let body = document.querySelector("body");
+// let btn = document.querySelector(".mode");
+// let currentMode = "light";
 
+// btn.addEventListener("click", ()=>{
+//     if(currentMode==="light"){
+//         currentMode="dark";
+//         body.classList.remove("light");
+//         body.classList.add("dark");
+//         }else{
+//             currentMode="light";
+//             body.classList.remove("dark");
+//             body.classList.add("light");
+            
+//         }
+
+
+// });
+// let count =0;
+
+// let clic = document.querySelector(".btn");
+// let counting = document.querySelector("h3");
+
+// addEventListener("click", ()=>{
+//     count++;
+//     counting.textContent = count;
+// // counting.innerText=count;
+// //       clic.prepend("counting");
+// });
+// alert("click on count button to count your countings");
+// Get the elements
+const overlay = document.getElementById('overlay');
+const customAlert = document.getElementById('customAlert');
+const closeButton = document.getElementById('closeButton');
+
+// Function to show the custom alert
+function showCustomAlert() {
+  overlay.style.display = 'block';
+  customAlert.style.display = 'block';
+}
+
+// Function to hide the custom alert
+function hideCustomAlert() {
+  overlay.style.display = 'none';
+  customAlert.style.display = 'none';
+}
+
+// Add event listener to close the alert
+closeButton.addEventListener('click', hideCustomAlert);
