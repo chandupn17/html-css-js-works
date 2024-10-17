@@ -8,13 +8,13 @@ let turn0= true; //player
 
 const winpatt =[
     [0, 1, 2],
-    [0,3,6],// index 0
-    [0, 4, 8],//    1
-    [1, 4, 7],//2
-    [2, 5, 8],//3
-    [2, 4, 6],//4
-    [3, 4, 5],//5
-    [6, 7, 8],//6
+    [0,3,6],    // index 0
+    [0, 4, 8],  //    1
+    [1, 4, 7],  //2
+    [2, 5, 8],  //3
+    [2, 4, 6],  //4
+    [3, 4, 5],  //5
+    [6, 7, 8],  //6
 ]; 
 
 const disable = ()=>{
@@ -30,7 +30,13 @@ const showwinner = (winner) =>{
     disable();
 };
 //boxes is array of class with same name .box
-//for each is loop with itrative variable box 
+// //for each is loop with itrative variable box 
+// const disable = ()=>{
+//     for(let box of boxes){
+//         box.disabled =true;
+//     }
+
+// };
 boxes.forEach((box) => {
     box.addEventListener("click", (e) => {
     // console.log("euuev");
@@ -41,7 +47,7 @@ boxes.forEach((box) => {
     box.innerText ="x";
     turn0=true;
    }
-   box.disabled = true;// This will work if `box` is a button or input element
+  box.disabled = true;// This will work if `box` is a button or input element
    checkwiner();
     });  
 });
@@ -74,6 +80,5 @@ const checkwiner = ()=>
         enableBoxes();
         msgContainer.classList.add("hide");
     };
-  newGameBtn.addEventListener("click", resetGame);
-  
-  reset_btn.addEventListener("click", resetGame);
+newGameBtn.addEventListener("click", resetGame);
+reset_btn.addEventListener("click", resetGame);
