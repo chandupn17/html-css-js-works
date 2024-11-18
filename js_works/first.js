@@ -210,21 +210,88 @@
 // });
 // alert("click on count button to count your countings");
 // Get the elements
-const overlay = document.getElementById('overlay');
-const customAlert = document.getElementById('customAlert');
-const closeButton = document.getElementById('closeButton');
+// const overlay = document.getElementById('overlay');
+// const customAlert = document.getElementById('customAlert');
+// const closeButton = document.getElementById('closeButton');
 
-// Function to show the custom alert
-function showCustomAlert() {
-  overlay.style.display = 'block';
-  customAlert.style.display = 'block';
-}
+// // Function to show the custom alert
+// function showCustomAlert() {
+//   overlay.style.display = 'block';
+//   customAlert.style.display = 'block';
+// }
 
-// Function to hide the custom alert
-function hideCustomAlert() {
-  overlay.style.display = 'none';
-  customAlert.style.display = 'none';
-}
+// // Function to hide the custom alert
+// function hideCustomAlert() {
+//   overlay.style.display = 'none';
+//   customAlert.style.display = 'none';
+// }
 
-// Add event listener to close the alert
-closeButton.addEventListener('click', hideCustomAlert);
+// // Add event listener to close the alert
+// closeButton.addEventListener('click', hideCustomAlert);
+// let array = [1,2,3,4,5,5,6,6,7];
+// array.forEach(element => {
+//   //console.log("huu"+element);
+// });
+
+
+// let btn = document.querySelector("#btn");
+// // btn.onclick = (e)=>{
+// // console.log("clicked once"  );
+// // };
+// function call(){
+//   console.log("function id called");
+// }
+// btn.addEventListener("click",(call)=>
+// {
+//   console.log("good hogthr");
+// });
+//  
+// const calll = (x) =>{
+// //----------------------------------------------------
+//   function call(x,func){
+//     //2s
+//   setTimeout( () =>{
+//     func();
+//     console.log(" data is loding ");
+//     console.log(x);
+//     //func();
+
+//   },1000);
+//   console.log("ggggg  " + x);
+// }
+
+// call(1, ()=>{
+//   console.log(" call a function");
+
+// });
+
+// setTimeout(call,6000);
+// //--------promises----------------------------------------------------
+// const getdata = (dataId, func)=>{
+  
+//   setTimeout(()=>{
+//     console.log("data one is ", dataId);
+//     if(func){
+//       func();
+//     }
+//   },2000);
+//   // getdata(5);
+//  }
+
+
+// getdata(1 , ()=>{
+//   getdata(2 , ()=>{
+//     getdata(3);
+//   });
+// });
+//-----------------------------------------------------
+
+const url = 10;
+
+
+const getFacts = async () =>{
+console.log("getting data . . . . .");
+let response = await fetch(url);
+console.log(response);
+
+};
