@@ -4,19 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="weather.css">
     <title>Weather</title>
 </head>
 <body>
     <div class="card-main">
+        <form>
         <div class="search">
             <div class="search-bar">
-                <input type="search" name="query" placeholder="Search here...">
+                <input type="search" id="inputText" name="query" placeholder="Search here...">
             </div>
             <div class="search-icon">
-            <button type="submit">Search</button>
-            </div>
-              
+                <a>
+                    <img src="images/search.png" alt="Button">
+                </a>
+            </div>    
         </div>
+        <div class="weather-img">
+            <img src="images/clear.png" alt="sunney">
+        </div>
+        <div class="wed-degree">
+           <div class="degree-data"> <p id="degree"> 7 <sup>0</sup></p></div>
+        </div>
+        <div class="city-name">
+            <p id="city">NEW YORK</p>
+        </div>
+        <div class="humidity-wind">
+            <div class="humidity">
+                <div class="humidity-img">
+                <img src="images/humidity.png">
+                </div>
+                <div class="humidity-data"><p>humidity</p></div>
+                
+            </div>
+            <div class="windspeed">
+                <div class="windspeed-img"> <img src="images/wind.png"></div>
+               <div class="windspped-data"><p>Wind speed</p></div>
+            </div>
+        </div>
+        </form>
     </div>
+    <script src="weather.js"></script>
 </body>
 </html>
